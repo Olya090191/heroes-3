@@ -1,0 +1,75 @@
+body { margin: 0; color: #666; font: normal 18px/28px Times New Romain, Helvetica, Arial, sans-serif;}
+.clear { clear: both;}
+p { margin: 0; padding: 10px 0;}
+a { color: #0000ff; text-decoration: underline;}
+a:hover { color: #7777ff;}
+a img { border: none;}
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; font-weight: bold; color: #000;}
+h1 { padding: 40px 0 24px; line-height: 1.4em;}
+h2 { padding: 0 0 12px;}
+strong { font-weight: bold;}
+em { font-style: italic;}
+form, menu, iframe { display: block; margin: 0; padding: 0; border: none;}
+ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
+* { outline: none;}
+
+body {
+	background-image: url(Fon.jpg);
+}
+.one{
+	margin-left: auto;
+    margin-right: auto;
+    width: 1000px;  
+    }
+.header-resize {
+	background: #31420b;
+	color: #fefefe;
+	border-radius: 9px;
+	width: 1000px;
+	padding-left: 20px;
+}
+.logo {
+	width: 900px;
+	padding: 15px 35px;
+	text-decoration: none;
+}
+.logo a  {
+	color: #000000;
+	text-decoration: none;
+}
+.logo p {
+	padding: 25px 0px;
+	padding-right: 400px;
+	text-transform: uppercase; 
+	font-family: "Times New Romain";
+	font-weight: lighter;
+	font-size: 60px;
+	line-height: 55px;
+	text-align: center;
+}
+.logo p span {
+	font-weight: 500;
+	font-size: 30px;
+	text-transform: none; 
+	line-height: 70px;
+}
+.contacts a{
+	color: #577613;
+}
+.contacts {
+	font-family: "Times New Romain";
+	padding: 25px 0px;
+	color: #000000;
+	max-width: 240px;
+  	margin-left: auto;
+  	margin-right: 0;
+  	margin-top: -250px;
+  	margin-bottom: 50px;
+  	text-align: right;
+  	font-size: 20px;
+}
+.contacts a:hover {
+	color: #8bbd1d;
+}
+
+
