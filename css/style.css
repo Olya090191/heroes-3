@@ -1,75 +1,195 @@
-body { margin: 0; color: #666; font: normal 18px/28px Times New Romain, Helvetica, Arial, sans-serif;}
-.clear { clear: both;}
-p { margin: 0; padding: 10px 0;}
-a { color: #0000ff; text-decoration: underline;}
-a:hover { color: #7777ff;}
-a img { border: none;}
-h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; font-weight: bold; color: #000;}
-h1 { padding: 40px 0 24px; line-height: 1.4em;}
-h2 { padding: 0 0 12px;}
-strong { font-weight: bold;}
-em { font-style: italic;}
-form, menu, iframe { display: block; margin: 0; padding: 0; border: none;}
-ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
-* { outline: none;}
-
 body {
-	background-image: url(Fon.jpg);
+  margin: 0;
+  color: #000;
+  font: normal 16px/24px "Times New Roman", serif;
+  background: #82875c url(../fon.jpg) repeat left top;
 }
-.one{
-	margin-left: auto;
-    margin-right: auto;
-    width: 1000px;  
-    }
-.header-resize {
+
+.clear {
+  clear: both;
+}
+
+p {
+  margin: 0;
+  padding: 8px 0;
+}
+
+a {
+  color: #577613;
+  text-decoration: underline;
+}
+
+a:hover {
+   color: #8bbd1d;
+   text-decoration: underline;
+}
+
+a img {
+  border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  color: #000;
+}
+
+h1 {
+	padding: 0 0 8px;
+	font-size: 28px;
+    line-height: 1.4em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+form,
+menu,
+iframe {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+ol, ul, dl, li, dt, dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+* {
+  outline: none;
+}
+
+.resize{
+	margin: 12px auto;
+    padding: 0 15px;
+    width: 870px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.green {
 	background: #31420b;
 	color: #fefefe;
-	border-radius: 9px;
-	width: 1000px;
-	padding-left: 20px;
+	border-radius: 8px;
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0 -15px;
+    padding: 4px 15px;
 }
+
+.header{
+	padding: 0px 0px 1px;
+	
+}
+
 .logo {
-	width: 900px;
-	padding: 15px 35px;
+	float: left;
+	padding-left: 210px;
+	width: 230px;
+	font-size: 24px;
+    line-height: 32px;
+    text-align: center;
 	text-decoration: none;
+    color: #000;
+    overflow: hidden;
 }
-.logo a  {
-	color: #000000;
-	text-decoration: none;
+
+.logo:hover {
+    color: #000;
+    text-decoration: none;
 }
-.logo p {
-	padding: 25px 0px;
-	padding-right: 400px;
-	text-transform: uppercase; 
-	font-family: "Times New Romain";
-	font-weight: lighter;
-	font-size: 60px;
-	line-height: 55px;
-	text-align: center;
+
+.logo img {
+	float: left;
+	padding: 10px 0 0 15px;
+	margin-left: -210px;
 }
-.logo p span {
-	font-weight: 500;
-	font-size: 30px;
-	text-transform: none; 
-	line-height: 70px;
+
+.logo .logo-heroes {
+    display: block;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: uppercase;
+    padding-top: 22px;
 }
-.contacts a{
-	color: #577613;
+
+.logo .logo-iii {
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 30px;
+    margin-right: -16px;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 16px;
 }
+
 .contacts {
-	font-family: "Times New Romain";
-	padding: 25px 0px;
+	padding-top: 30px;
 	color: #000000;
-	max-width: 240px;
-  	margin-left: auto;
-  	margin-right: 0;
-  	margin-top: -250px;
-  	margin-bottom: 50px;
   	text-align: right;
-  	font-size: 20px;
+  	font-size: 18px;
+  	line-height: 24px;
 }
-.contacts a:hover {
-	color: #8bbd1d;
+
+.content {
+	float: left;
+	padding-bottom: 32px;
+	width: 570px;
+ }
+
+ .content-wrap{
+ 	padding: 0;
+ 	margin: 0;
+ 	border: none;
+ 	
+ }
+
+ .content p {
+ 	line-height: 1.5em;
+ 	text-indent: 20px;
+ }
+
+ .content img {
+ 	width: 570px;
+ }
+
+ .menu-wrap {
+ 	float: right;
+ 	width: 270px;
+ }
+
+.menu-wrap h2 {
+	color: #fff;
+ 	padding: 8px 15px;
+ 	margin: 0 -15px 20px;
+    font-size: 22px;
+    line-height: 1.4em;
+    background: #31420b;
 }
+
+
+ .menu-wrap li {
+ 	padding: 4px 0;
+ }
+
+ .footer a{
+ 	float: right;
+ 	padding-top: 8px;
+ 	color: #fff;
+ 	text-decoration: none;
+ }
+ .footer:hover a {
+ 	text-decoration: underline;
+ }
+
 
 
